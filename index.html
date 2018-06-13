@@ -85,26 +85,17 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p><strong>欢迎你来到我的博客</strong>:<br>这是我的第一篇文章这篇文章将讲述如何搭建一个由hexo搭建的博客并发布到github给我们的仓库中。.</p>
-<h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p><li>1.申请github账号<a href="https://github.com" target="_blank" rel="noopener">点击这里进入github</a> </li></p>
-<p><li>2.创建仓库进行操作<a href="https://github.com/new" target="_blank" rel="noopener">https://github.com/new</a> </li></p>
-<p><li>3.生成密钥git工具生成密钥放入<a href="https://github.com/settings/ssh/new" target="_blank" rel="noopener">github</a>中 </li></p>
-<p><li>4.密钥生成方法 $ ssh-keygen -t rsa -C “<a href="mailto:youremail@example.com" target="_blank" rel="noopener">youremail@example.com</a>“  </li></p>
-<p><li>4.安装hexo  cnpm install -g hexo-cli</li></p>
-<p><li>5.初始化  hexo init blog</li></p>
-<p><li>6. 发布  $ hexo deploy </li></p>
-<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><li>1.申请github账号<a href="https://github.com" target="_blank" rel="noopener">点击这里进入github</a> </li><br><li>2.创建仓库进行操作<a href="https://github.com/new" target="_blank" rel="noopener">https://github.com/new</a> </li><br><li>3.生成密钥git工具生成密钥放入<a href="https://github.com/settings/ssh/new" target="_blank" rel="noopener">github</a>中 </li><br><li>4.密钥生成方法 $ ssh-keygen -t rsa -C “<a href="mailto:youremail@example.com" target="_blank" rel="noopener">youremail@example.com</a>“  </li><br><li>4.安装hexo  cnpm install -g hexo-cli</li><br><li>5.初始化  hexo init blog</li><br><li>6. 发布  $ hexo deploy </li>
+
+<h3 id="hexo常用命令大全"><a href="#hexo常用命令大全" class="headerlink" title="hexo常用命令大全"></a>hexo常用命令大全</h3><h4 id="1-创建一个新的文章"><a href="#1-创建一个新的文章" class="headerlink" title="1.创建一个新的文章"></a>1.创建一个新的文章</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"我的第一篇博客"</span></span><br></pre></td></tr></table></figure>
+<h4 id="2-在本地启动服务预览博客"><a href="#2-在本地启动服务预览博客" class="headerlink" title="2. 在本地启动服务预览博客"></a>2. 在本地启动服务预览博客</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h4 id="3-启动生成静态资源的文件的命令"><a href="#3-启动生成静态资源的文件的命令" class="headerlink" title="3. 启动生成静态资源的文件的命令"></a>3. 启动生成静态资源的文件的命令</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h4 id="4-发布页面到githubpage中"><a href="#4-发布页面到githubpage中" class="headerlink" title="4. 发布页面到githubpage中"></a>4. 发布页面到githubpage中</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/06/13/hello-world/" data-id="cjickik3m00005gusixyb8903" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/06/13/hello-world/" data-id="cjicksfvg000000ustf4ul4vk" class="article-share-link">Share</a>
       
       
     </footer>
@@ -140,7 +131,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/06/12/vue学习分享/" data-id="cjickik3r00015gusffbnoop0" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/06/12/vue学习分享/" data-id="cjicksfvs000100us9jf425a8" class="article-share-link">Share</a>
       
       
     </footer>
